@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px;
+}
+
+@media (min-width: 320px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .logo-hamb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger img {
+    width: 50px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .nav-logo {
+    display: flex;
+    gap: 2px;
+  }
+
+  .logo-span img {
+    display: flex;
+    align-items: center;
+  }
+
+  #input {
+    display: flex;
+    gap: 6px;
+  }
+
+  #input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+  }
+
+  .search-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #666565;
+  }
+  /* Modal stylings */
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .close-modal {
+    padding: 12px;
+    width: 65px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  .movie-list {
+    display: flex;
+    background-color: blue;
+    overflow: scroll;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .movie-item img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* jsx button stylings */
+
+  .movie-buttons {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .watch-btn,
+  .info-btn {
+    width: 140px;
+    height: 40px;
+    opacity: 1;
+    top: 509px;
+    left: 423px;
+    border-width: 1px;
+    border-radius: 40px;
+    border: none;
+  }
+
+  .watch-btn {
+    background-color: white;
+    color: black;
+  }
+
+  .info-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+  }
+
+  /* Hero section styling */
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-section img {
+    width: 200px;
+    height: 100;
+    opacity: 1;
+    top: 231.21px;
+    left: 461px;
+  }
+
+  .tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    height: 36px;
+    opacity: 1;
+    top: 370px;
+    left: 440px;
+    gap: 15px;
+  }
+
+  .tag {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    font-size: 12px;
+  }
+
+  .tag-span {
+    font-size: 16px;
+  }
+
+  .description {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}

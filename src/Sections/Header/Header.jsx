@@ -1,9 +1,9 @@
 import Button from "../../Components/Button";
 import Navbar from "../../Components/NavBar";
 import React, { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom"; 
 import { fetchMovie } from "../../Context/context";
+import Movie from "../../Components/Movie";
 
 function Header() {
   const [movies, setMovies] = useState([]);
@@ -54,7 +54,7 @@ function Header() {
                 key={movie.id}
                 onClick={() => handleMovieClick(movie)}
               >
-                <Movieslists movie={movie} index={index + 1} />
+                <Movie movie={movie} index={index + 1} />
               </div>
             ))}
           </div>

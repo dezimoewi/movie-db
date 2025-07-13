@@ -176,4 +176,44 @@ body {
     letter-spacing: 0%;
     text-align: center;
   }
+
+  /* Trending styling  */
+
+  .Latest {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+  }
+
+  .movies {
+    align-items: center;
+    gap: 16px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+  }
+
+  .one {
+    display: flex;
+    position: relative;
+    margin: 0 50px;
+    p {
+      font-weight: 1000;
+      font-size: 180px;
+      line-height: 250px;
+      z-index: -1;
+    }
+  }
+
+  .latest-movies img {
+    width: 130px;
+    height: 150px;
+    border-width: 1px;
+    border-radius: 12px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+  }
 }

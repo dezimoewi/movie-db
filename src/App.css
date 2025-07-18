@@ -213,7 +213,57 @@ body {
     border-width: 1px;
     border-radius: 12px;
     position: absolute;
+    object-fit: cover;
     top: 80px;
     left: 60px;
   }
+
+  /* Action stylings */
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .action img {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 150px;
+    opacity: 1;
+    border-radius: 12px;
+    border-width: 1px;
+    object-fit: cover;
+  }
+
+  .romance img {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 150px;
+    opacity: 1;
+    border-radius: 12px;
+    border-width: 1px;
+    object-fit: cover;
+  }
+
+  .comedy img {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 150px;
+    opacity: 1;
+    border-radius: 12px;
+    border-width: 1px;
+    object-fit: cover;
+  }
+
+  .title-paragraph {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  
 }
